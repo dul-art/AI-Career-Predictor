@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Career Prediction Result</title>
+
+
+<style>
+
+body{
+
+    margin:0;
+    font-family:Arial, sans-serif;
+
+    background-image:url("https://images.unsplash.com/photo-1556761175-b413da4baf72");
+    background-size:cover;
+    background-position:center;
+
+}
+
+
+.overlay{
+
+    min-height:100vh;
+    background:rgba(0,0,0,0.6);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
+.card{
+
+
+    width:500px;
+
+    background:white;
+
+    border-radius:30px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px black;
+
+}
+
+
+
+img{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #6a11cb;
+
+}
+
+
+
+h1{
+
+    color:#2575fc;
+
+    font-size:35px;
+
+}
+
+
+
+.career{
+
+
+    margin-top:25px;
+
+    padding:25px;
+
+    border-radius:20px;
+
+
+    background:linear-gradient(
+        45deg,
+        #ff512f,
+        #dd2476
+    );
+
+
+    color:white;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+.text{
+
+    margin-top:20px;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+
+
+button{
+
+
+    margin-top:30px;
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:20px;
+
+    background:linear-gradient(
+        45deg,
+        #2575fc,
+        #6a11cb
+    );
+
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+
+}
+
+
+
+button:hover{
+
+    transform:scale(1.1);
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+<div class="overlay">
+
+
+<div class="card">
+
+
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+
+
+
+<h1>
+🎯 AI Career Result
+</h1>
+
+
+
+<div class="career">
+
+{{ career }}
+
+</div>
+
+
+
+<div class="text">
+
+Your skills were analyzed by the Machine Learning model.
+
+<br>
+
+This career matches your current profile 🚀
+
+</div>
+
+
+
+<a href="/">
+
+<button>
+🔄 Predict Again
+</button>
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</body>
+
+
+</html>
